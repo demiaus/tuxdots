@@ -1,0 +1,40 @@
+[font]
+size = 8
+normal = { family = "CozetteVector", style = "Regular" }
+
+[window]
+decorations = "None"
+opacity = 0.95
+# startup_mode = "Maximized"
+startup_mode = "Windowed"
+blur = true
+padding = { x = 15, y = 15 }
+
+[colors.normal]
+black = "#191724"
+red = "#eb6f92"
+green = "#c4a7e7"
+yellow = "#f6c177"
+blue = "#31748f"
+magenta = "#ebbcba"
+cyan = "#9ccfd8"
+white = "#e0def4"
+
+[colors.dim]
+black = "#191724"
+red = "#b4637a"
+green = "#907aa9"
+yellow = "#ea9d34"
+blue = "#286983"
+magenta = "#d7827e"
+cyan = "#56949f"
+white = "#c5c3ce"
+
+[cursor]
+style.blinking = "On"
+
+[keyboard]
+bindings = [
+   { key = "Return", mods = "Control|Shift", action = "SpawnNewInstance" }
+]
+
