@@ -9,7 +9,6 @@ echo "$(date +%T) open  ~/.profile" >> ~/.log/rc.log
 
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
-export PATH="$HOME/scripts:$PATH"
 export XDG_CONFIG_HOME="$HOME/.config" # This should be redundant, but some script authors don't know that
 export XDG_CACHE_HOME="$HOME/.cache"
 export EDITOR=vim
